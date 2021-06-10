@@ -1,0 +1,9 @@
+#! /bin/bash 
+mkdir proba
+cd proba
+mkdir test test1 test2
+cd test
+touch ts.txt ts1.txt ts2.txt ts3.json ts4.json
+mkdir zm zm1 zm2
+ls -a
+mv ~/proba/test/ts.txt ts1.txt ~/proba/test1
